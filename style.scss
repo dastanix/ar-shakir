@@ -1,0 +1,319 @@
+@import "mixin";
+@import "reset";
+#header{
+  .header{
+    padding-bottom: 100px;
+    @include df;
+    margin: 10px;
+    h1{
+      @include hdh1;
+    }
+       .header--text{
+       @include none;
+       @include header-text();
+     }
+    .select-header-2{
+      @include none;
+    }
+    .select-header{
+      margin: 0 35px;
+      @include none;
+    }
+    .two-button{
+      margin: 0 15px;
+    }
+    .a{
+      margin: 0 25px;
+    }
+
+  .header-block{
+    @include header-text;
+  }
+    .block{
+      @include none;
+      @include header-text;
+    }
+    .two-button{
+      Width:137px;
+      height:52px;
+      background: #F57059;
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      color: #FFFFFF;
+
+    }
+}
+}
+#hero{
+  .hero{
+    .hero--text{
+      @include hdh1;
+      p{
+        @include p-h;
+      }
+    }
+    .img{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: -600px;
+    }
+    .shakir {
+    position: absolute;
+      left: -45px;
+      top: 500px;
+    }
+    .shakir-text{
+      position: absolute;
+      margin-top: 80px;
+      margin-left: 15px;
+
+      button{
+        @include btn;
+        position: absolute;
+        margin-left: 380px;
+        margin-top: -60px;
+      }
+    }
+    .hero-icon{
+      display: flex;
+      gap: 5px;
+      margin-top: -55px;
+      margin-left: 6px;
+      @include icon;
+    }
+    .icons{
+      color: orange;
+    }
+  }
+}
+#logos{
+  .logos{
+    font-family: 'Gilroy-SemiBold',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    h1{
+      padding-bottom: 50px;
+    }
+    .logosss{
+@include df;
+      padding-bottom: 50px;
+    }
+  }
+}
+#project{
+  .project{
+    &__text{
+      h4{
+        @include project-btn;
+        padding-bottom: 20px;
+        margin-top: 100px;
+      }
+    h1{
+      @include project-h1;
+      padding-bottom: 10px;
+    }
+      p{
+        @include p;
+        padding-bottom: 15px;
+      }
+      button{
+        width: 162px;
+        height: 47px;
+        background: #F57059;
+        border-radius: 47px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 15px;
+        &:hover{
+          background: blue;
+          transition: .4s;
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+      }
+    }
+    &__voln{
+      margin-top: -250px;
+    }
+    &__texx{
+      position: absolute;
+      top: 1500px;
+      left: 235px;
+      button{
+      width: 64px;
+      height: 64px;
+      background: #FFFFFF;
+      border-radius: 20px;
+       padding-bottom: 10px;
+
+    }
+    }
+    &__texxx{
+      position: absolute;
+      left: 715px;
+      top: 1365px;
+      button{
+        width: 64px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding-bottom: 10px;
+      }
+    }
+    &__fo{
+      position: absolute;
+      left: 1030px;
+      top: 1100px;
+      padding-bottom: 20px;
+      button{
+        width: 64px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding-bottom: 10px;
+      }
+    }
+    }
+    }
+#push{
+  background: url("./img/Vector 1578.png");
+  .push{
+    img{
+      margin-top: 150px;
+      padding-left: 260px;
+    }
+    &__text{
+      margin-top: -300px;
+      h1{
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 20px;
+        font-size: 42px;
+        color: #FFFFFF;
+      }
+      p{
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: 'Gilroy-Medium',sans-serif;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+      button{
+        @include center;
+        width: 162px;
+        height: 47px;
+        border: none;
+        background: #FF7F5C;
+        border-radius: 47px;
+        font-family: 'Gilroy-SemiBold',sans-serif;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 40%;
+        cursor: pointer;
+        position: absolute;
+        &:hover{
+          background: red;
+          transition: .4s;
+          transform: scale(1.1);
+
+        }
+      }
+    }
+  }
+}
+#business{
+  .business{
+    padding-top: 400px;
+    text-align: center;
+    h1{
+      font-weight: 700;
+      font-size: 42px;
+      color: #000000;
+    }
+    p{
+      font-weight: 500;
+      font-size: 20px;
+      color: #64607D;
+    }
+
+  &__img{
+    @include df;
+  }
+    &__text{
+      position: absolute;
+      padding-top: 80px;
+      padding-left: 20px;
+      .icons{
+        padding-bottom: 20px;
+      }
+      h1{
+        padding-bottom: 35px;
+      }
+      p{
+        padding-bottom: 10px;
+      }
+      button{
+        @include none;
+        padding-top: 60px;
+      }
+    }
+    &__text1{
+      position: absolute;
+      padding-top: 80px;
+      padding-left: 525px;
+      .icons{
+        padding-bottom: 20px;
+      }
+      h1{
+        padding-bottom: 35px;
+      }
+      p{
+        padding-bottom: 10px;
+      }
+      button{
+        @include none;
+        padding-top: 60px;
+      }
+    }
+    &__text2{
+      position: absolute;
+      padding-top: 80px;
+      padding-left: 1015px;
+      .icons{
+        padding-bottom: 20px;
+      }
+      h1{
+        padding-bottom: 35px;
+      }
+      p{
+        padding-bottom: 10px;
+      }
+      button{
+        @include none;
+        padding-top: 60px;
+      }
+    }
+    &__img{
+      padding-bottom: 50px
+    }
+    &__btn{
+      button{
+      margin-left: 40%;
+        border: none;
+        width: 259px;
+        height: 60px;
+        background: #F57059;
+        border-radius: 10px;
+      }
+
+    }
+}
+}

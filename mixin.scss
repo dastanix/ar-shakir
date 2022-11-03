@@ -1,0 +1,88 @@
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin hdh1{
+  font-family:'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 70px;
+  color: #000000;
+}
+@mixin icon{
+  font-weight: 400;
+  font-size: 17px;
+  color: #757095;
+}
+@mixin p-h{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #757095;
+}
+@mixin none{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+@mixin header-text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+@mixin hero-h1{
+  font-weight: 780;
+  font-size: 50px;
+  color: #000000;
+}
+@mixin project-h1{
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000;
+}
+@mixin p{
+  font-weight: 500;
+  font-size: 16px;
+  color: #64607D;
+}
+@mixin btnxr{
+  Width:137px;
+  height:52px;
+  background: #F57059;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+@mixin project-btn{
+  font-family: 'Gilroy',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #F57059;
+}
+@mixin btn{
+  width: 211px;
+  height: 65px;
+  background: #1B1C31;
+  color: white;
+  font-family: 'Gilroy',sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  &:hover{
+    background: blue;
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.1);
+  }
+}
