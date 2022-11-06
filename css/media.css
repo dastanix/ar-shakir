@@ -1,3 +1,164 @@
-
+@media (max-width: 1504px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1440px) {
+  #business .business__text2 {
+    padding-left: 945px;
+  }
+  #business .business__text1 {
+    padding-left: 490px;
+  }
+  #footer .footer .footer-flex {
+    width: 1390px;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero .hero--text {
+    width: 27rem;
+  }
+  #hero .hero .hero--text h1 {
+    font-size: 38px;
+  }
+  #hero .hero .hero--text p {
+    font-size: 15px;
+  }
+  #hero .hero .shakirxr {
+    left: 180px;
+    top: 400px;
+  }
+  #project .project__fo {
+    top: 1165px;
+  }
+  #push .push img {
+    padding-left: 120px;
+  }
+  #business .business h1 {
+    font-size: 40px;
+  }
+  #business .business__img {
+    margin-left: -45px;
+    gap: 15px;
+  }
+  #business .business__text1 {
+    padding-left: 430px;
+  }
+  #business .business__text2 {
+    padding-left: 825px;
+  }
+  #among .among__logo h1 {
+    width: 160px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #among .among__offend {
+    gap: 28px;
+    margin-left: -55px;
+  }
+  #among .among__text {
+    position: absolute;
+    left: 60px;
+  }
+  #footer .footer .footer-flex {
+    width: 1090px;
+    margin: -118px 125px;
+  }
+  #input .input .input__left h1 {
+    font-size: 40px;
+  }
+  #input .input .input__left p {
+    font-size: 17px;
+  }
+  #input {
+    width: 1180px;
+  }
+  #input .input {
+    width: 1000px;
+  }
+  #project .project__voln {
+    margin-top: -200px;
+  }
+  #project .project__texxx {
+    position: absolute;
+    top: 1405px;
+  }
+  #project .project__texx {
+    position: absolute;
+    top: 1550px;
+  }
+}
+@media (max-width: 1024px) {
+  #logos .logos .logosss {
+    flex-wrap: wrap;
+  }
+  #business .business__img {
+    flex-wrap: wrap;
+  }
+  #business .business__text2 {
+    padding-left: 610px;
+    margin-top: -370px;
+  }
+  #business .business__text {
+    position: absolute;
+    padding-top: 440px;
+  }
+  #business .business__text1 {
+    padding-left: 23px;
+    margin-top: -380px;
+  }
+  #among .among__logo h1 {
+    width: 26px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  #among .among__offend {
+    flex-wrap: wrap;
+    margin-left: 155px;
+  }
+  #among .among__text {
+    left: 260px;
+  }
+  #check .check__right__text {
+    font-size: 23px;
+    width: 600px;
+  }
+  #input .input {
+    width: 910px;
+  }
+  #project .project__texx {
+    position: absolute;
+    top: 1905px;
+    left: 200px;
+  }
+  #project .project__texxx {
+    position: absolute;
+    top: 1775px;
+    left: 600px;
+  }
+  #push .push img {
+    padding-left: 50px;
+  }
+  #project .project__fo {
+    top: 1570px;
+    left: 860px;
+  }
+  .voln {
+    width: 915px;
+  }
+  #logos .logos h1 {
+    font-size: 23px;
+  }
+  #hero .hero-icon {
+    margin-top: 800px;
+  }
+  #hero .shakir-text {
+    margin-top: 700px;
+  }
+  #hero .hero .shakirxr {
+    left: -100px;
+    top: 670px;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

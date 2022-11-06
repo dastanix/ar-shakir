@@ -16,6 +16,11 @@
   line-height: 70px;
   color: #000000;
 }
+@mixin h1-footer{
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
 @mixin icon{
   font-weight: 400;
   font-size: 17px;
@@ -63,6 +68,12 @@
   font-size: 14px;
   line-height: 19px;
   color: #FFFFFF;
+  &:hover{
+    background: darkred;
+    transition: .4s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 @mixin project-btn{
   font-family: 'Gilroy',sans-serif;
@@ -85,4 +96,27 @@
     transition: .5s;
     transform: scale(1.1);
   }
+}
+@mixin blog-h1{
+  font-weight: 800;
+  font-size: 20px;
+  color: #000000;
+}
+@mixin __p{
+  font-family: 'Gilroy-Medium',sans-serif;
+  font-size: 16px;
+  color: #64607D;
+}
+@mixin h2-among{
+  font-family: 'Gilroy-SemiBold',sans-serif;
+  font-size: 20px;
+  color: #64607D;
+  line-height: 30px;
+}
+@mixin h1-among{
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 46px;
+  color: #000000;
+
 }

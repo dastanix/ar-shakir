@@ -32,6 +32,12 @@
     .block{
       @include none;
       @include header-text;
+      &:hover{
+        color: red;
+        transition: .4s;
+        transform: scale(1.1);
+        border: none;
+      }
     }
     .two-button{
       Width:137px;
@@ -43,6 +49,12 @@
       font-size: 14px;
       line-height: 19px;
       color: #FFFFFF;
+      &:hover{
+        background: darkred;
+        transition: .4s;
+        transform: scale(1.1);
+        cursor: pointer;
+      }
 
     }
 }
@@ -55,16 +67,154 @@
         @include p-h;
       }
     }
+    .hero-right{
+      position: absolute;
+
+    }
     .img{
       display: flex;
       align-items: center;
       justify-content: flex-end;
       margin-top: -600px;
     }
-    .shakir {
-    position: absolute;
-      left: -45px;
+    .shakirxr {
+      position: absolute;
+      left: 300px;
+      top: 360px;
+      transform: rotate(-45deg);
+    }
+    .march{
+      transform: rotate(45deg);
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .from{
+      transform: rotate(45deg);
+      position: absolute;
+      top: 370px;
+      left: 310px;
+    }
+    .ww{
+      position: absolute;
+      top: 495px;
+      left: 450px
+    }
+    .from-text{
+      position: absolute;
       top: 500px;
+      left: 510px;
+      width: 233px;
+      font-size: 13px;
+    }
+    }
+    .mar{
+      position: absolute;
+      top: 130px;
+      left: 413px;
+    }
+    .march-text{
+      position: absolute;
+      top: 163px;
+      left: 153px;
+    }
+    .shakir{
+      position: absolute;
+      top: 10px;
+      left: 260px;
+      transform: rotate(45deg);
+    }
+    .three-text{
+      position: absolute;
+      top: 400px;
+      left: 100px;
+      font-size: 10px
+    }
+    .shakir-one{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transform: rotate(45deg);
+    }
+    .shakir-one-texxt{
+      position: absolute;
+      top: 195px;
+      left: 400px;
+    }
+    .text-2{
+      left: 100px;
+      position: absolute;
+    }
+    .texxt-img{
+      transform: rotate(45deg);
+      position: absolute;
+      top: 18px;
+      left: 20px;
+    }
+    .texxt-p{
+      position: absolute;
+      left: 125px;
+    }
+    .shakir-one-text{
+      position: absolute;
+      left: 160px;
+      top: 200px;
+      .one-p{
+        position: absolute;
+        left: 125px;
+      }
+      .one-img{
+        transform: rotate(45deg);
+        top: 10px;
+        left: 13px;
+        position: absolute;
+      }
+      .left{
+        position: absolute;
+        left: 100px;
+      }
+    }
+  .shakirrr{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 525px;
+    left: -240px;
+  }
+  .two-reach{
+    transform: rotate(45deg);
+    top: 640px;
+    left: 255px;
+    position: absolute;
+  }
+  .two-reach-text{
+    top: 690px;
+    left: 280px;
+    position: absolute;
+    button{
+      width: 21.37px;
+      height: 21.37px;
+    }
+  }
+  .reach{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 640px;
+    left: 463px;
+  }
+  .reach-text{
+    position: absolute;
+    top: 690px;
+    left: 485px;
+    button{
+      width: 21.37px;
+      height: 21.37px;
+    }
+  }
+    .shakir-three{
+      position: absolute;
+      left: -50px;
+      top: 240px;
+      transform: rotate(135deg);
     }
     .shakir-text{
       position: absolute;
@@ -78,18 +228,52 @@
         margin-top: -60px;
       }
     }
+    .resent{
+      transform: rotate(45deg);
+      position: absolute;
+      top: 245px;
+      left: 200px;
+    }
+    .resent-text{
+      .reset-btn{
+        position: absolute;
+        left: 220px;
+        width: 98.58px;
+        height: 28.44px;
+        outline: none;
+        background: transparent;
+        border-radius: 5px;
+      }
+      .too{
+        transform: rotate(45deg);
+        position: absolute;
+        top: 50px;
+        left: 70px;
+      }
+      @include df;
+      position: absolute;
+      top: 325px;
+      left: 290px;
+      font-size: 10px;
+    }
+    .three-img{
+      transform: rotate(135deg);
+      position: absolute;
+      top: 13px;
+      left: -15px;
+    }
     .hero-icon{
       display: flex;
       gap: 5px;
-      margin-top: -55px;
+      margin-top: 220px;
       margin-left: 6px;
       @include icon;
     }
+
     .icons{
       color: orange;
     }
   }
-}
 #logos{
   .logos{
     font-family: 'Gilroy-SemiBold',sans-serif;
@@ -231,12 +415,14 @@
 }
 #business{
   .business{
+    padding-bottom: 50px;
     padding-top: 400px;
     text-align: center;
     h1{
       font-weight: 700;
       font-size: 42px;
       color: #000000;
+      padding-bottom: 5px;
     }
     p{
       font-weight: 500;
@@ -305,15 +491,374 @@
       padding-bottom: 50px
     }
     &__btn{
+      padding-bottom: 250px;
       button{
       margin-left: 40%;
         border: none;
         width: 259px;
         height: 60px;
         background: #F57059;
-        border-radius: 10px;
+        border-radius: 10px
       }
-
     }
 }
+}
+#among{
+  .among{
+    &__text1{
+      position: absolute;
+      text-align: center;
+      margin-top: -280px;
+      margin-left: 50px;
+      h1{
+        @include h1-among;
+        padding-bottom: 15px;
+      }
+      p{
+        @include __p;
+        padding-bottom: 15px;
+      }
+      button{
+        @include btnxr;
+      }
+    }
+    &__text{
+      position: absolute;
+      text-align: center;
+      margin-top: -280px;
+      left: 120px;
+      h1{
+        @include h1-among;
+        padding-bottom: 15px;
+      }
+      p{
+        @include __p;
+        padding-bottom: 15px;
+      }
+      button{
+        @include btnxr;
+      }
+    }
+    &__offend{
+      @include df;
+      padding-bottom: 150px;
+    }
+    &__logo{
+      padding-bottom: 100px;
+      h1{
+        @include h1-among;
+      }
+      @include df;
+      h2{
+        margin-left: -75px;
+        @include h2-among;
+      }
+      button{
+        width: 60px;
+        height: 60px;
+        background: #E9ECF2;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+#check{
+  .check{
+    &__absolute{
+      z-index: 1;
+    }
+    &__right__text{
+      font-weight: 700;
+      font-size: 30px;
+      color:black ;
+    }
+    &__left{
+      padding-left: 70px;
+      margin-top: -200px;
+      .left1{
+        position: inherit;
+        margin-top: -50px;
+        margin-left: -50px;
+      }
+      .left2{
+        position: absolute;
+        padding-top: 480px;
+        padding-left: 290px;
+      }
+    }
+    h4{
+      @include project-btn;
+      color: #3734A9;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    h1{
+      @include h1-among;
+      line-height: 0;
+      text-align: center;
+    }
+      &__absolute{
+        position: absolute;
+        background: transparent;
+      }
+   .checkkc{
+     padding-bottom: 300px;
+     @include df;
+     width: 1100px;
+     &__logo{
+       @include df;
+       padding-top: 10px;
+       p{
+         padding-top: 60px;
+         margin-left: -100px;
+       }
+     }
+     .right-logo{
+padding-top: inherit;
+       padding-bottom: 15px;
+     }
+     .star{
+       color: orange;
+       padding-bottom: 10px;
+     }
+   }
+    .check__right{
+      padding-top: 100px;
+    }
+    }
+  }
+#download{
+  .download{
+    padding-bottom: 300px;
+    h4{
+      padding-bottom: 15px;
+      @include project-btn;
+    }
+    h1{
+      padding-bottom: 30px;
+      @include h1-among;
+    }
+    p{
+      padding-bottom: 30px;
+      @include p;
+      color: #64607D;
+    }
+    padding-top: 250px;
+    text-align: center;
+    &__btn1{
+      width: 165px;
+      height: 45px;
+      background: #F57059;
+      border-radius: 47px;
+      border: none;
+      color: white;
+      &:active{
+        background: red;
+        transition: .4s;
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+      }
+      &__btn2{
+        width: 165px;
+        height: 45px;
+        background: green;
+        border-radius: 47px;
+        border: none;
+        color: white;
+        &:active{
+          background: #3734A9;
+          transition: .4s;
+          transform: scale(1.1);}
+        cursor: pointer;
+    }
+  }
+}
+#blog{
+  .blog{
+    .blog-h1{
+      @include df;
+      button{
+        @include btnxr;
+      }
+      h1{
+        @include h1-among;
+      }
+    }
+    .blog__category{
+      padding-bottom: 50px;
+      h5{
+        padding-bottom: 20px;
+        @include --p;
+      p{
+         @include --p;
+      }
+      }
+      h1{
+        @include blog-h1;
+        padding-bottom: 10px;
+      }
+@include df;
+      .blog__logo3{
+        border-bottom: 1px solid red;
+      }
+      .blog__logo4{
+        border-bottom: 1px solid red;
+      }
+      .blog__logo5{
+        border-bottom: 1px solid red;
+      }
+      .blog__logo6{
+        border-bottom: 1px solid red;
+      }
+    }
+  }
+}
+#input{
+  background:  #05796B;
+  width: 1520px;
+  height: 450px;
+  .input{
+    padding-top: 100px;
+    @include df;
+    width: 1200px;
+    .input__left{
+      h5{
+        padding-bottom: 20px;
+        font-family: 'Gilroy',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+      h1{
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 45px;
+        color: #FFFFFF;
+      }
+      p{
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+    }
+    .input__right{
+      .input1{
+        padding-bottom: 10px;
+      }
+      .input1 input{
+      width: 371px;
+      height: 60px;
+      background: rgba(224, 210, 210, 0.34);
+      border-radius: 5px;
+      font-size: 15px;
+      border: none;
+      outline: none;
+      padding-left: 3px;
+    }   .input2 input{
+      width: 371px;
+      height: 60px;
+      background: rgba(224, 210, 210, 0.34);
+      border-radius: 5px;
+     font-size: 15px;
+      border: none;
+      outline: none;
+      padding-left: 3px;
+    }
+      .input2{
+        padding-bottom: 10px;
+      }
+      .btn__input button{
+        width: 373px;
+        height: 60px;
+        background: #F57059;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-family: 'Gilroy',sans-serif;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        &:hover{
+          background: #F2F3F4;
+          color: black;
+          transition:.5s;
+        }
+      }
+    }
+  }
+}
+#footer{
+  .footer{
+    h1{
+      @include h1-footer;
+    }
+    padding-top: 120px;
+    &__logo{
+     h1{
+       padding-bottom: 15px;
+     }
+       p{
+         padding-bottom: 10px;}
+     }
+    .footer-flex{
+    display: flex;
+    align-items: center;
+    width: 1435px;
+    margin: -118px 100px;
+    justify-content: space-around
+  }
+    &__input{
+      margin-top: -50px;
+      h1{
+        padding-bottom: 20px;
+      }
+      p{
+        margin-top: 20px;
+        color: rgba(24, 20, 51, 0.65);
+      }
+    }
+    &__input input{
+      width: 250px;
+      height: 50px;
+      background: rgba(249, 249, 249, 0.36);
+      border: none;
+      outline: none;
+    }
+    &__input button{
+      width: 149px;
+      height: 52px;
+      background: rgba(0, 225, 240, 0.48);
+      border: none;
+      margin-left: -5px;
+      &:hover{
+        background: rgba(20, 22, 24, 0.79);
+        cursor: pointer;
+        color: #FFFFFF;
+        transition:.4s;
+      }
+    }
+    &__company{
+      h1{
+        padding-bottom: 10px;
+      }
+      p{
+        padding-bottom: 15px;
+      }
+    }
+    &__resources{
+      h1{
+        padding-bottom: 10px;
+      }
+      p{
+        padding-bottom: 15px;
+      }
+    }
+    &__star{
+      color: #3734A9;
+
+    }
+  }
 }
